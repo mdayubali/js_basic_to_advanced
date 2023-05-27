@@ -1,4 +1,8 @@
-let expression = " Expression always produce a value";
+// Expression vs Statement 
+// Expression always produce a value. It can hold value, function or any thing
+// statement work inside a block 
+
+let expression = "Expression always produce a value";
 
 let statement = 0;
 

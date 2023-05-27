@@ -14,3 +14,11 @@ name();
 name();
 // A function have must a return value.
 // without without return value a funtion result will be undifined.
+
+function fruitProcessor(apples, oranges){
+    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+    return juice;
+}
+const result = fruitProcessor(4,5);
+// console.log(fruitProcessor(4,5));
+console.log(result);
